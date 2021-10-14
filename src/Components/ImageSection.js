@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import resume from '../Images/img-4.jpg'
+import resume from '../Images/resume.jpg'
 import PrimaryButton from '../Components/PrimaryButton'
 
 const ImageSection = () => {
@@ -13,7 +13,7 @@ const ImageSection = () => {
              
                     <h4>i am <span>faeze moradi</span></h4>
                     <p className="paragraphy">
-                        Enim id culpa pariatur nisi incididunt aliqua et incididunt consequat. Laboris ad enim velit consectetur eiusmod amet in et labore ex duis est. Ipsum excepteur eiusmod excepteur magna tempor consequat cupidatat sit qui qui excepteur id commodo. Consectetur consequat esse voluptate cillum tempor et aute commodo labore Lorem pariatur aliqua aute magna. Nisi amet velit pariatur eu minim. Officia amet laborum non id consectetur id veniam duis officia sint culpa aliquip dolore qui.
+                        Enim id culpa pariatur nisi incididunt aliqua et incididunt consequat. Laboris ad enim velit consectetur eiusmod amet in et labore ex duis est. Ipsum excepteur eiusmod excepteur magna tempor consequat cupidatat sit qui qui excepteur id duis officia sint culpa aliquip dolore qui.
                     </p>
                     <div className="about-info">
                         <div className="info-title">
@@ -42,14 +42,16 @@ const ImageSection = () => {
 const ImageSectionStyle = styled.div`
 width: 100%;
 display: flex;
-margin-top: 3rem;
+margin-top: 5rem;
 .left-content{
     width: 50%;
-    padding-bottom: 2rem;
+    /* padding-bottom: 2rem; */
     img{
         object-fit: cover;
-    width: 90%;
-    margin:0 auto;
+        object-position: top;
+        width: 90%;
+        height: 100%;
+        margin:0 auto;
 }
     
 }
@@ -75,13 +77,13 @@ margin-top: 3rem;
             .info-title{
                 p{ 
                     padding-bottom: .3rem;
-                    /* color: var(--primery-color); */
                     font-weight: 600;
                 }
             }
             .info-value{
                 padding-left: 2rem;
                 p{
+                    color: var(--primery-color);
                     padding-bottom: .3rem;
                     letter-spacing: .1rem;
                 }

@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
      --background-dark-color:#10121a;
      --background-dark-color-2:#030f20;
      --background-dark-color-3:#181022;
+     --background-dark-color-4:#333;
      --primery-color:#007bff;
      --secondary-color:#6c757d;
      --thirdary-color:#8a6b8b;
