@@ -29,6 +29,11 @@ margin-right: 1rem;
    border-style: solid;
    border-color: var(--background-dark-color-2) transparent transparent  var(--background-dark-color-2);
 }
+&:hover{
+    margin-top: -.3rem;
+    border-left: .3rem var(--primery-color) solid; 
+    transition: all .2s ease-in-out;
+}
 p{
  
 }
