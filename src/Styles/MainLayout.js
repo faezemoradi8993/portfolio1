@@ -5,6 +5,6 @@ padding:5rem;
 width: 100%;
 `
 export const InnerLayout=styled.div`
-padding:6rem 0 0 0;
+padding:5rem 0 0 0;
 width: 100%;
 `

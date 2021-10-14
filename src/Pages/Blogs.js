@@ -12,12 +12,12 @@ const Blogs = () => {
                 <InnerLayout className='blog'>
                 {blogs.map(blog => (
 
-                        <div  key={blog.id}>
+                        <div  key={blog.id} className='blog-item'>
                             <div className='image'>
                                 <img src={blog.image} />
                             </div>
                             <div className='title'>
-                                <h4>{blog.title}</h4>
+                                <a href={blog.link}>{blog.title}</a>
                             </div>
                             <div className='date'>
                                 <span></span><span></span><span></span>
@@ -36,21 +36,38 @@ const BlogsStyle = styled.div`
     grid-column-gap: 3rem;
     grid-row-gap:2rem;
     padding: 3rem;
-    background-color: var(--background-dark-color-2);
+ 
 width: 100%;
+.blog-item{
+    background-color: var(--background-dark-color-2);
+    padding:1rem;
+    padding-bottom: 4rem;
+}
 .image{
     width: 100%;
-height: 90%;
+    height: 100%;
+    overflow: hidden;
+    padding-bottom: 1rem;
     img{
         object-position: center;
-    object-fit: cover;
-    width: 100%;
-    height: 98%;
+        overflow: hidden;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        transition: all .5s ease-in-out;
+        &:hover {
+            transform: rotate(2deg) scale(1.07);
+            transition: all .5s ease-in-out;
+        }
     }
 }
-.title{
-
-}
+a{
+    color:var(--white-color);
+    font-size: 1rem;
+    &:hover{
+        transition: all .3s ease-in-out;
+        color: var(--primery-color);
+    }
 .date{
 
 }

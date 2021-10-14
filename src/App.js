@@ -49,6 +49,7 @@ justify-content: space-evenly;
 position: absolute;
 z-index: -1;
 .line{
+  opacity: 30%;
   width: 1px;
   min-height: 100vh;
   height: 100%;

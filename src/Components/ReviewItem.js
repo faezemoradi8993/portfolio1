@@ -35,6 +35,7 @@ margin-right: 1rem;
     transition: all .2s ease-in-out;
 }
 p{
+   
  
 }
 `
