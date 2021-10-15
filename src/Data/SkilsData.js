@@ -1,9 +1,10 @@
-const Skills =[
-    {tittle:"HTML",with:"80%"},
-    {tittle:"CSS",with:"85%"},
-    {tittle:"SCSS",with:"85%"},
-    {tittle:"BOOTSTRAP",with:"60%"},
-    {tittle:"JAVASCRYPT",with:"70%"},
-    {tittle:"REACT JS",with:"50%"},
-    {tittle:"MATERIAL UI",with:"40%"},
+const SkillData = [
+    { title: "HTML", width: "80%" },
+    { title: "CSS", width: "85%" },
+    { title: "SCSS", width: "85%" },
+    { title: "BOOTSTRAP", width: "60%" },
+    { title: "JAVASCRYPT", width: "70%" },
+    { title: "REACT JS", width: "50%" },
+    { title: "MATERIAL UI", width: "40%" },
 ]
+export default SkillData

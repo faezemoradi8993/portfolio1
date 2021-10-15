@@ -1,7 +1,7 @@
 import React from 'react'
-import styled  from 'styled-components';
+import styled from 'styled-components';
 
-const ContactItem = ({icon , title , contact1 , contact2}) => {
+const ContactItem = ({ icon, title, contact1, contact2 }) => {
     return (
         <ContactItemStyle>
             <div className='left-content'>
@@ -14,24 +14,24 @@ const ContactItem = ({icon , title , contact1 , contact2}) => {
                 <p>{contact1}</p>
                 <p>{contact2}</p>
             </div>
-            
         </ContactItemStyle>
     )
 }
-const ContactItemStyle= styled.div`
-margin-bottom: 3rem;
+const ContactItemStyle = styled.div`
+margin-bottom: 2rem;
+padding :2rem;
 display: flex;
 align-items: center;
-background-color: var(--background-dark-color-3);
+background-color: var(--background-dark-color-2);
 .right-content{
    h6{
        color:var(--white-color);
-       padding: 1rem ;
+       padding-bottom: 1rem ;
    }
    p{
-       padding: 1rem;
+       font-size: 1rem;
+       padding-top: .5rem;
    }
-
 }
 .left-content{
     padding: 1.3rem;

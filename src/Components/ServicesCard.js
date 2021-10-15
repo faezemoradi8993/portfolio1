@@ -33,7 +33,8 @@ transition: all .2s ease-in-out;
     transition: all .5s ease-in-out;
 }
 &:hover{
-    margin-top: -.3rem;
+    /* margin-top: -.3rem; */
+    transform: translateY(-15px);
     transition: all .2s ease-in-out;
 }
 h4{

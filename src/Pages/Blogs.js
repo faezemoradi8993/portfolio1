@@ -34,10 +34,8 @@ const BlogsStyle = styled.div`
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 3rem;
-    grid-row-gap:2rem;
-    padding: 3rem;
- 
-width: 100%;
+    grid-row-gap:2rem;  
+    width: 100%;
 .blog-item{
     background-color: var(--background-dark-color-2);
     padding:1rem;

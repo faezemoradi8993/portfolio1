@@ -1,10 +1,11 @@
+import React from 'react';
 import Sidebar from './Components/Sidebar';
 import styled from "styled-components"
 import { Route, Switch } from 'react-router';
 import HomePage from './Pages/HomePage';
 import Portfolios from './Pages/Portfolios';
 import Contact from './Pages/Contact';
-import Resume from './Pages/Resume';
+import ResumePage from './Pages/ResumePage';
 import Blogs from './Pages/Blogs';
 import About from './Pages/About';
 
@@ -22,7 +23,7 @@ function App() {
         <Switch>
           <Route path="/" exact>{HomePage}</Route>
           <Route path="/about" exact>{About}</Route>
-          <Route path="/resume" exact>{Resume}</Route>
+          <Route path="/resume" exact>{ResumePage}</Route>
           <Route path="/contact" exact>{Contact}</Route>
           <Route path="/portfolios" exact>{Portfolios}</Route>
           <Route path="/blogs" exact>{Blogs}</Route>

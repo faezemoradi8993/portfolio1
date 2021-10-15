@@ -2,15 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 import resume from '../Images/resume.jpg'
 import PrimaryButton from '../Components/PrimaryButton'
+import { InnerLayout } from '../Styles/MainLayout'
+import Title from './Title'
 
 const ImageSection = () => {
     return (
-        <ImageSectionStyle>
-            <div className="left-content">
-                <img src={resume} />
-            </div>
-            <div className="right-content">
-             
+        <InnerLayout>
+             <Title title="About Me" span="About me" />
+            <ImageSectionStyle>
+                <div className="left-content">
+                    <img src={resume} />
+                </div>
+                <div className="right-content">
+
                     <h4>i am <span>faeze moradi</span></h4>
                     <p className="paragraphy">
                         Enim id culpa pariatur nisi incididunt aliqua et incididunt consequat. Laboris ad enim velit consectetur eiusmod amet in et labore ex duis est. Ipsum excepteur eiusmod excepteur magna tempor consequat cupidatat sit qui qui excepteur id duis officia sint culpa aliquip dolore qui.
@@ -33,10 +37,11 @@ const ImageSection = () => {
                             <p>: Frelance</p>
                         </div>
                     </div>
-                    <PrimaryButton title="download cv"/>
-          
-            </div>
-        </ImageSectionStyle>
+                    <PrimaryButton title="download cv" />
+
+                </div>
+            </ImageSectionStyle>
+        </InnerLayout>
     )
 }
 const ImageSectionStyle = styled.div`

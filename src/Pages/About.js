@@ -10,16 +10,9 @@ const About = () => {
     return (
         <MainLayout>
             <AboutStyle>
-                <Title title="About Me" span="About me" />
                 <ImageSection />
-                <InnerLayout>
-                    <Title title="Services" span="Services" />
-                    <ServicesSection />
-                </InnerLayout>
-                <InnerLayout>
-                    <Title title="Reviews" span="Reviews" />
-                    <ReviewsSection />
-                </InnerLayout>
+                <ServicesSection />
+                <ReviewsSection />
             </AboutStyle>
         </MainLayout>
     )

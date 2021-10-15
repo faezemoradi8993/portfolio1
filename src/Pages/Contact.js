@@ -3,14 +3,13 @@ import styled from 'styled-components';
 import Title from '../Components/Title';
 import { MainLayout } from '../Styles/MainLayout';
 import PrimaryButton from './../Components/PrimaryButton';
-// import {PhoneIcon,HomeIcon} from '@mui/icons-material';
-import EmailIcon from '@mui/icons-material/Email';
+import { Phone, Email, Place} from '@material-ui/icons';
 import ContactItem from '../Components/ContactItem';
 
 const Contact = () => {
-    // const phone= <PhoneIcon/>
-    // const email= <EmailIcon/>
-    // const address= <HomeIcon/>
+    const phone= <Phone/>
+    const email= <Email/>
+    const address= <Place/>
     return (
         <MainLayout>
             <Title title="Contact Us" span="Contact Us" />
@@ -41,8 +40,8 @@ const Contact = () => {
                     </div>
                     <div className='left-container'>
                         <ContactItem icon={phone} title='Phone' contact1='09153488577' contact2='09021461242'/>
-                        {/* <ContactItem icon={email} title='Email' contact1='faeze.moradi8993@gmail.com' contact2='faeze.moradi8993@gmail.com'/> */}
-                        <ContactItem icon={address} title='Address' contact1='Iran ,Tehran ' contact2='Iran , Iranshahr'/>
+                        <ContactItem icon={email} title='Email' contact1='faeze.moradi8993@gmail.com' contact2='faeze.moradi8993@gmail.com'/>
+                        <ContactItem icon={email} title='Address' contact1='Iran ,Tehran ' contact2='Iran , Iranshahr'/>
                     </div>
                 </ContactStyle>
         </MainLayout>
