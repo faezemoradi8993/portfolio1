@@ -7,10 +7,12 @@ const Navigation = () => {
         <NavigationStyle>
                 <li><NavLink to="/" activeClassName="active-class" exact>Home</NavLink></li>
                 <li><NavLink to="/about" activeClassName="active-class" exact>about</NavLink></li>
-                <li><NavLink to="/resume "activeClassName="active-class" exact>Resume</NavLink></li>
+                <li><NavLink to="/resume"activeClassName="active-class" exact>Resume</NavLink></li>
                 <li><NavLink to="/portfolios" activeClassName="active-class" exact>Portfolios</NavLink></li>
                 <li><NavLink to="/blogs" activeClassName="active-class" exact>Blogs</NavLink></li>
                 <li><NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink></li>
+                <li><NavLink to="/contact1" activeClassName="active-class" exact>Contact</NavLink></li>
+
         </NavigationStyle>
     )
 }
