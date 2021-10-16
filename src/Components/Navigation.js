@@ -15,6 +15,7 @@ const Navigation = () => {
         </NavigationStyle>
     )
 }
+
 const NavigationStyle=styled.ul`
 width: 100%;
 li{
