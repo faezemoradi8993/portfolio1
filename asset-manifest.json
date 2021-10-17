@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/faezemoradi8993.github.io/portfolio1/static/js/main.c0856bf2.chunk.js",
+    "main.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/main.c0856bf2.chunk.js.map",
+    "runtime-main.js": "/faezemoradi8993.github.io/portfolio1/static/js/runtime-main.c778a617.js",
+    "runtime-main.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/runtime-main.c778a617.js.map",
+    "static/js/2.7940b71d.chunk.js": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js",
+    "static/js/2.7940b71d.chunk.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js.map",
+    "index.html": "/faezemoradi8993.github.io/portfolio1/index.html",
+    "precache-manifest.2f4294571cee843ccda4b87d4694e292.js": "/faezemoradi8993.github.io/portfolio1/precache-manifest.2f4294571cee843ccda4b87d4694e292.js",
+    "service-worker.js": "/faezemoradi8993.github.io/portfolio1/service-worker.js",
+    "static/js/2.7940b71d.chunk.js.LICENSE.txt": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js.LICENSE.txt",
+    "static/media/avatar.jpg": "/faezemoradi8993.github.io/portfolio1/static/media/avatar.87446ab5.jpg",
+    "static/media/blog1.svg": "/faezemoradi8993.github.io/portfolio1/static/media/blog1.219053d2.svg",
+    "static/media/blog2.svg": "/faezemoradi8993.github.io/portfolio1/static/media/blog2.c76e33c5.svg",
+    "static/media/blog3.svg": "/faezemoradi8993.github.io/portfolio1/static/media/blog3.d47df84a.svg",
+    "static/media/blog4.svg": "/faezemoradi8993.github.io/portfolio1/static/media/blog4.27392816.svg",
+    "static/media/design.svg": "/faezemoradi8993.github.io/portfolio1/static/media/design.3ddaa057.svg",
+    "static/media/game-dev.svg": "/faezemoradi8993.github.io/portfolio1/static/media/game-dev.4526f305.svg",
+    "static/media/intelligence.svg": "/faezemoradi8993.github.io/portfolio1/static/media/intelligence.3e3ae132.svg",
+    "static/media/maya-1.jpg": "/faezemoradi8993.github.io/portfolio1/static/media/maya-1.3c381051.jpg",
+    "static/media/maya-3.jpg": "/faezemoradi8993.github.io/portfolio1/static/media/maya-3.d9dba343.jpg",
+    "static/media/maya-4.jpg": "/faezemoradi8993.github.io/portfolio1/static/media/maya-4.8d1d9436.jpg",
+    "static/media/resume.jpg": "/faezemoradi8993.github.io/portfolio1/static/media/resume.328b73a7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c778a617.js",
+    "static/js/2.7940b71d.chunk.js",
+    "static/js/main.c0856bf2.chunk.js"
+  ]
+}
