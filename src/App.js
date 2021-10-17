@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Sidebar from './Components/Sidebar';
 import styled from "styled-components"
 import { Route, Switch } from 'react-router';
@@ -8,11 +8,17 @@ import Contact from './Pages/Contact';
 import ResumePage from './Pages/ResumePage';
 import Blogs from './Pages/Blogs';
 import About from './Pages/About';
+import MenuIcon from '@material-ui/icons/Menu';
 
 function App() {
+  const [navToggle, setNavToggle] = useState(false)
   return (
     <AppStyled>
-      <Sidebar />
+      {/* <Sidebar className={navToggle ? "nav-toggler" : ""} /> */}
+       <Sidebar toggle={navToggle} setToggle={setNavToggle} /> 
+      <div className='menu-mobile' onClick={() => setNavToggle(!navToggle)}>
+        <MenuIcon />
+      </div>
       <MainContentStyled>
         <ul className="lines">
           <li className="line"></li>
@@ -41,6 +47,11 @@ width: calc(100vw - 17rem);
 min-height: 100vh;
 margin: 0 0 0 auto;
 position: relative;
+@media screen and (max-width:1200px){
+      width: 100vw;
+      /* transition: all .3s ease-in-out; */
+}
+
 .lines{
 width: 100%;
 height: 100%;

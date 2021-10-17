@@ -2,22 +2,26 @@ import React from 'react'
 import styled from 'styled-components'
 import Particle from '../Components/Particle';
 import { Facebook, GitHub, Instagram } from '@material-ui/icons';
+import { MainLayout } from './../Styles/MainLayout';
 
 
 const HomePage = () => {
     return (
+        <MainLayout>
             <HomePageStyle>
-            <Particle />
-            <div className="typography">
-                <h1>Hi i'm <span>faeze moradi</span></h1>
-                <p>Eiusmod labore sint adipisicing non irure enim amet excepteur incididunt amet id non adipisicing voluptate. Laboris esse non consectetur dolore cillum tempor ipsum consequat ad. Id magna officia ipsum veniam labore incididunt reprehenderit velit amet elit officia eu aliquip. Enim pariatur anim deserunt reprehenderit ut excepteur aliqua labore qui. </p>
-                <div className="icons">
-                    <a href="https://facebook.com/faezemoradi8993" className="i-facebook"><Facebook /></a>
-                    <a href="https://instagram.com/faezemoradi_developer" className="i-instagram"><Instagram /></a>
-                    <a href="https://github.com/faezemoradi8993" className="i-github"><GitHub /></a>
+                <Particle />
+                <div className="typography">
+                    <h1>Hi i'm <span>faeze moradi</span></h1>
+                    <p>Eiusmod labore sint adipisicing non irure enim amet excepteur incididunt amet id non adipisicing voluptate. Laboris esse non consectetur dolore cillum tempor ipsum consequat ad. Id magna officia ipsum veniam labore incididunt reprehenderit velit amet elit officia eu aliquip. Enim pariatur anim deserunt reprehenderit ut excepteur aliqua labore qui. </p>
+                    <div className="icons">
+                        <a href="https://facebook.com/faezemoradi8993" className="i-facebook"><Facebook /></a>
+                        <a href="https://instagram.com/faezemoradi_developer" className="i-instagram"><Instagram /></a>
+                        <a href="https://github.com/faezemoradi8993" className="i-github"><GitHub /></a>
+                    </div>
                 </div>
-            </div>
-        </HomePageStyle>
+            </HomePageStyle>
+        </MainLayout>
+
     )
 }
 const HomePageStyle = styled.header`
@@ -28,7 +32,6 @@ display: flex;
 align-items: center;
 justify-content: space-evenly;
 flex-direction: column;
-padding: 5rem;
 .typography{
     text-align: center;
     h1{

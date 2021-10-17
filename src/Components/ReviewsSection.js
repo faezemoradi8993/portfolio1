@@ -22,6 +22,9 @@ margin-top: 5rem;
 width: 100%;
 .reviews{
     display: flex;
+    @media screen and (max-width:768px){
+               flex-direction: column;
+        }
 }
 
 `

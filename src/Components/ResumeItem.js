@@ -35,6 +35,9 @@ position: relative;
         border: .1rem solid  var(--border-color);
         background-color: var(--background-dark-color);
         border-radius: 50%;
+        @media screen and (max-width:400px){
+            left: -31px;
+        }
     }
     p{
         display: inline-block;
@@ -44,6 +47,10 @@ position: relative;
     width: 70%;
     padding-left: 3rem;
     position: relative;
+    @media screen and (max-width:500px){
+        padding-left: 1.5rem;
+        }
+    
     &::before{
         position: absolute;
         content: "";
@@ -52,11 +59,17 @@ position: relative;
         width: 3rem;
         height: .1rem;
         background-color: var(--border-color);
+        @media screen and (max-width:500px){
+        padding-left: 1.5rem;
+        left :-.8rem;
+        width: .3rem;
+        }
     }
     h3{
         font-size: 1.5rem;
         color: var(--primery-color);
         padding-bottom:.6rem;
+        word-break: break-word;
     }
     h5{
         padding-bottom:.8rem;

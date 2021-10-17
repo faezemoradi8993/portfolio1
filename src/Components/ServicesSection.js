@@ -27,5 +27,12 @@ margin-top: 5rem;
 div:not(:last-child){
     margin-right: 1rem;
 }
+@media screen and (max-width:768px){
+            flex-direction: column;
+            div:not(:last-child){
+    margin-right: 0;
+    margin-bottom: 2.5rem;
+}
+}
 `
 export default ServicesSection

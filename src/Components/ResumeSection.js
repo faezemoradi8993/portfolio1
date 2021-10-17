@@ -31,6 +31,9 @@ const ResumeSectionStyle = styled.div`
 .resume-content{
     border-left: .1rem solid var(--border-color);
     padding-left: 1.4rem;
+    @media screen and (max-width:400px){
+        padding-left: 1rem;
+        }
 }
 `
 export default ResumeSection

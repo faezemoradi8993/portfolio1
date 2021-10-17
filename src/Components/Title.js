@@ -11,6 +11,9 @@ const Title = ({title, span}) => {
 const TitleStyle = styled.div`
 position: relative;
 margin-bottom: 3rem;
+@media screen and (max-width:500px){
+    margin-bottom: 4rem;
+        }
 h2{
     position: relative;
     color: var(--white-color);
@@ -18,7 +21,10 @@ h2{
     font-weight: 600;
     text-transform: uppercase;
     z-index: 4;
-    padding-bottom: .8rem;
+    padding-bottom: .6rem;
+    @media screen and (max-width:500px){
+        font-size: 2.5rem;
+        }
 
     &::before{
         content: '';
@@ -48,6 +54,10 @@ h2{
         font-weight: 700;
         color: rgba(25 29 43 /.44);
         z-index: -1;
+        @media screen and (max-width:500px){
+            font-size: 3rem;
+            top: 50%;
+        }
 
     }
 }

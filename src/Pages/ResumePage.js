@@ -20,12 +20,7 @@ const ResumePage = () => {
     )
 }
 const ResumeStyle = styled.div`
-.skills{
-    padding-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-column-gap: 3rem;
-    grid-row-gap: 2rem;
-}
+min-height: 100vh;
+width: 100%;
 `
 export default ResumePage

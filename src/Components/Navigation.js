@@ -1,21 +1,33 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
-import styled  from 'styled-components';
+import styled from 'styled-components';
 
-const Navigation = () => {
+const Navigation = ({ setToggle }) => {
     return (
         <NavigationStyle>
-                <li><NavLink to="/" activeClassName="active-class" exact>Home</NavLink></li>
-                <li><NavLink to="/about" activeClassName="active-class" exact>about</NavLink></li>
-                <li><NavLink to="/resume"activeClassName="active-class" exact>Resume</NavLink></li>
-                <li><NavLink to="/portfolios" activeClassName="active-class" exact>Portfolios</NavLink></li>
-                <li><NavLink to="/blogs" activeClassName="active-class" exact>Blogs</NavLink></li>
-                <li><NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink></li>
+            <li>
+                <NavLink to="/" activeClassName="active-class" exact onClick={() => setToggle(false)}>Home</NavLink>
+            </li>
+            <li>
+                <NavLink to="/about" activeClassName="active-class" exact onClick={() => setToggle(false)} >about</NavLink>
+            </li>
+            <li>
+                <NavLink to="/resume" activeClassName="active-class" exact onClick={() => setToggle(false)} >Resume</NavLink>
+            </li>
+            <li>
+                <NavLink to="/portfolios" activeClassName="active-class" exact onClick={() => setToggle(false)} >Portfolios</NavLink>
+            </li>
+            <li>
+                <NavLink to="/blogs" activeClassName="active-class" exact onClick={() => setToggle(false)} >Blogs</NavLink>
+            </li>
+            <li>
+                <NavLink to="/contact" activeClassName="active-class" exact onClick={() => setToggle(false)} >Contact</NavLink>
+            </li>
 
         </NavigationStyle>
     )
 }
-const NavigationStyle=styled.ul`
+const NavigationStyle = styled.ul`
 width: 100%;
 li{
     display: block;

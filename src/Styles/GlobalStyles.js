@@ -29,5 +29,40 @@ const GlobalStyle = createGlobalStyle`
  body{
      background-color:var(--background-dark-color);
  }
+ //nav toggle
+ .nav-toggle{
+    transform: translateX(0)!important;
+    transition: all 0.5s ease-in-out ;
+}
+//menu-icon
+.menu-mobile{
+  display: none;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  top: 2rem;
+  right: 2rem;
+  z-index: 100000;
+  background-color: var(--background-dark-color);
+  border-radius: 4px;
+  opacity: .5;
+  transition: all .2s ease-in-out;
+  &:hover{
+    opacity: 1;
+    transition: all .3s ease-in-out;
+  }
+  svg{
+    font-size: 3rem;
+  }
+  @media screen and (max-width:1200px){
+    display: flex;    
+}
+@media screen and (max-width:600px){    
+      right: .7rem;
+}
+
+}
+
  `
 export default GlobalStyle;

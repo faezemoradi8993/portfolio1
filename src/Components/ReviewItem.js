@@ -19,6 +19,13 @@ border-left: .3rem var(--border-color) solid;
 transition: all .2s ease-in-out;
 &:not(:last-child){
 margin-right: 1rem;
+@media screen and (max-width:768px){
+           
+            :not(:last-child){
+    margin-right: 0;
+    margin-bottom: 3.5rem;
+}
+}
 }
 &::after{
     content: '';

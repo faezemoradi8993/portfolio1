@@ -29,7 +29,7 @@ h6{
     align-items: center;
     span{
         padding-right: .5rem;
-        font-size: .6rem;
+        font-size: 1rem;
     }
     .progress{
         width: 100%;

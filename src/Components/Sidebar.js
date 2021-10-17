@@ -2,17 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 import Avatar from "../Images/avatar.jpg"
 import Navigation from './Navigation'
-import Particle from './Particle'
 
 
-const Sidebar = () => {
+const Sidebar = ({toggle, setToggle}) => {
     return (
-        <SidebarStyle>
-        
+        <SidebarStyle className={toggle?"nav-toggle":""}>
             <div className="avatar">
                 <img src={Avatar} alt="avatar" />
             </div>
-            <Navigation />
+            <Navigation setToggle={setToggle}/>
             <footer>
                 <p>@2021 my portfolio website</p>
             </footer>
@@ -31,7 +29,11 @@ const SidebarStyle = styled.div`
     top: 0;
     left: 0;
     color: var(--secondary-color);
-    /* background-color:rgb(0 0 0 / 80%); */
+    z-index:900;
+    transition: all 0.5s ease-in-out ;
+    @media screen and (max-width:1200px){
+        transform: translateX(-100%);
+    }
     .avatar{
         width: 80%;
         padding: 1.5rem 0;

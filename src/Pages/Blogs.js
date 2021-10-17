@@ -36,11 +36,16 @@ const BlogsStyle = styled.div`
     grid-column-gap: 3rem;
     grid-row-gap:2rem;  
     width: 100%;
+    @media screen and (max-width:640px){
+        grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap:2rem;  
+}
 .blog-item{
     background-color: var(--background-dark-color-2);
     padding:1rem;
     padding-bottom: 4rem;
-}
+    }
 .image{
     width: 100%;
     height: 100%;
@@ -66,10 +71,8 @@ a{
         transition: all .3s ease-in-out;
         color: var(--primery-color);
     }
-.date{
-
 }
-}
+}    
 `
 export default Blogs
 
