@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12f57a689fada39104b8295398484884",
+    "revision": "5779d6058bfcd30eff4b66f75fdd0320",
     "url": "/faezemoradi8993.github.io/portfolio1/index.html"
   },
   {
-    "revision": "78ec1bd4c43a948fc314",
-    "url": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js"
+    "revision": "ed9e150ede2df6260ad3",
+    "url": "/faezemoradi8993.github.io/portfolio1/static/js/2.31574ad5.chunk.js"
   },
   {
     "revision": "ea88211925d18270e09b4691b32a2900",
-    "url": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js.LICENSE.txt"
+    "url": "/faezemoradi8993.github.io/portfolio1/static/js/2.31574ad5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc478b7256e5d4a1746e",
-    "url": "/faezemoradi8993.github.io/portfolio1/static/js/main.c0856bf2.chunk.js"
+    "revision": "50d878f75e6c2b88c430",
+    "url": "/faezemoradi8993.github.io/portfolio1/static/js/main.c8e1424f.chunk.js"
   },
   {
     "revision": "57b64ae4b5061f92f3df",

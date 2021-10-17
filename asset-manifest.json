@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/faezemoradi8993.github.io/portfolio1/static/js/main.c0856bf2.chunk.js",
-    "main.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/main.c0856bf2.chunk.js.map",
+    "main.js": "/faezemoradi8993.github.io/portfolio1/static/js/main.c8e1424f.chunk.js",
+    "main.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/main.c8e1424f.chunk.js.map",
     "runtime-main.js": "/faezemoradi8993.github.io/portfolio1/static/js/runtime-main.c778a617.js",
     "runtime-main.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/runtime-main.c778a617.js.map",
-    "static/js/2.7940b71d.chunk.js": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js",
-    "static/js/2.7940b71d.chunk.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js.map",
+    "static/js/2.31574ad5.chunk.js": "/faezemoradi8993.github.io/portfolio1/static/js/2.31574ad5.chunk.js",
+    "static/js/2.31574ad5.chunk.js.map": "/faezemoradi8993.github.io/portfolio1/static/js/2.31574ad5.chunk.js.map",
     "index.html": "/faezemoradi8993.github.io/portfolio1/index.html",
-    "precache-manifest.2f4294571cee843ccda4b87d4694e292.js": "/faezemoradi8993.github.io/portfolio1/precache-manifest.2f4294571cee843ccda4b87d4694e292.js",
+    "precache-manifest.523334daf6d1f02436058bb448fc14af.js": "/faezemoradi8993.github.io/portfolio1/precache-manifest.523334daf6d1f02436058bb448fc14af.js",
     "service-worker.js": "/faezemoradi8993.github.io/portfolio1/service-worker.js",
-    "static/js/2.7940b71d.chunk.js.LICENSE.txt": "/faezemoradi8993.github.io/portfolio1/static/js/2.7940b71d.chunk.js.LICENSE.txt",
+    "static/js/2.31574ad5.chunk.js.LICENSE.txt": "/faezemoradi8993.github.io/portfolio1/static/js/2.31574ad5.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/faezemoradi8993.github.io/portfolio1/static/media/avatar.87446ab5.jpg",
     "static/media/blog1.svg": "/faezemoradi8993.github.io/portfolio1/static/media/blog1.219053d2.svg",
     "static/media/blog2.svg": "/faezemoradi8993.github.io/portfolio1/static/media/blog2.c76e33c5.svg",
@@ -25,7 +25,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c778a617.js",
-    "static/js/2.7940b71d.chunk.js",
-    "static/js/main.c0856bf2.chunk.js"
+    "static/js/2.31574ad5.chunk.js",
+    "static/js/main.c8e1424f.chunk.js"
   ]
 }
