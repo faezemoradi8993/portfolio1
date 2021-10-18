@@ -28,12 +28,36 @@ const GlobalStyle = createGlobalStyle`
  }
  body{
      background-color:var(--background-dark-color);
+     //custom scrollbar
+     /* width */
+&::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+&::-webkit-scrollbar-track {
+  background: var(--background-dark-color-2);
+}
+
+/* Handle */
+&::-webkit-scrollbar-thumb {
+  background: var(--border-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+&::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
  }
+
+
 //mainContent 
-.mainContent-toggle-nav{
+/* .mainContent-toggle-nav{
   overflow: hidden;
   height: 100vh;
-}
+  transition: all 0.5s ease;
+} */
 
  //nav toggle
  .nav-toggle{

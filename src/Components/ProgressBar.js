@@ -41,8 +41,8 @@ h6{
         div{
             position: absolute;
             left: 0;
-            bottom: -1px;
-            height: 130%;
+            bottom: 0px;
+            height: 100%;
             background-color: var(--primery-color);
             border-radius: 5px;
          }
