@@ -2,15 +2,33 @@ import React from 'react'
 import styled from 'styled-components'
 import Avatar from "../Images/img (2).jpeg"
 import Navigation from './Navigation'
+import Switch from '@material-ui/core/Switch'
 
 
-const Sidebar = ({toggle, setToggle}) => {
+const Sidebar = ({ toggle, setToggle, theme , setTheme }) => {
+    const themToggler=()=>{
+        theme==='dark'?setTheme('light'):setTheme('dark')
+    }
     return (
-        <SidebarStyle className={toggle?"nav-toggle":""}>
+        <SidebarStyle className={toggle ? "nav-toggle" : ""}>
             <div className="avatar">
                 <img src={Avatar} alt="avatar" />
             </div>
-            <Navigation setToggle={setToggle}/>
+            <Navigation setToggle={setToggle} />
+            <div className='theme-changer-container'>
+                <div className='left'>
+                    <p>change theme</p>
+                </div>
+                <div className='right'>
+                    <Switch
+                        value=""
+                        // checked={}
+                        // onChange={}
+                        inputProps={{ "aria-label": '' }}
+                        onClick={themToggler}
+                    />
+                </div>
+            </div>
             <footer>
                 <p>@2021 my portfolio website</p>
             </footer>
@@ -33,6 +51,20 @@ const SidebarStyle = styled.div`
     transition: all 0.5s ease ;
     @media screen and (max-width:1200px){
         transform: translateX(-100%);
+    }
+    .theme-changer-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--primery-color);
+        .right{
+
+        }
+        .left{
+            color: var(--white-color);
+        }
+  
     }
     .avatar{
         width: 80%;

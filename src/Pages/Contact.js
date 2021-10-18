@@ -50,14 +50,13 @@ const Contact = () => {
 }
 const ContactStyle = styled.div`
     width: 100%;
-    /* padding:3rem 0 0 0; */
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     grid-column-gap: 2rem;
     width: 100%;
     @media screen and (max-width:1000px){
         grid-template-columns:repeat(1, 1fr);
-        }
+    }
     .right-container{
         width: 100%;
         .contact-title{
@@ -106,10 +105,8 @@ const ContactStyle = styled.div`
     }
     .left-container{
         @media screen and (max-width:1000px){
-        margin-top: 2rem;
-        }
-        
+            margin-top: 2rem;
+        } 
     }
-
 `
 export default Contact

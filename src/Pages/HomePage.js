@@ -21,69 +21,67 @@ const HomePage = () => {
                 </div>
             </HomePageStyle>
         </MainLayout>
-
     )
 }
 const HomePageStyle = styled.header`
-height: 100vh;
-width: 100%;
-position: relative;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-flex-direction: column;
-.typography{
-    text-align: center;
-    h1{
-padding-bottom: 2rem;
-font-size: 3rem;
-color: var(--white-color);
-span{
-            font-size: 3rem;
-color: var(--primery-color);
-        }
-    }
-}
-p{
-color: var(--font-light-color);
-font-size: 1.1rem;
-padding-bottom: 2rem;
-}
-.icons{
+    height:100vh;
+    width:100%;
+    position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
-    a{
+    justify-content: space-evenly;
+    flex-direction: column;
+    .typography{
+        text-align: center;
+        h1{
+            padding-bottom: 2rem;
+            font-size: 3rem;
+            color: var(--white-color);
+        span{
+                font-size: 3rem;
+                color: var(--primery-color);
+            }
+        }
+    }
+    p{
+        color: var(--font-light-color);
+        font-size: 1.1rem;
+        padding-bottom: 2rem;
+    }
+    .icons{
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 50%;
-        width: 3rem;
-        height: 3rem;
-        border: 2px solid var(--font-light-color);
-        background-color: rgba(0 0 0 /30%);
-        transition: all .3s ease;
-        color: var(--primery-color);
-
+        a{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+            border: 2px solid var(--font-light-color);
+            background-color: transparent;
+            transition: all .3s ease;
+            color: var(--primery-color);
+        }
+        a:not(last-child){
+            margin-right: 1rem;
+        }
+        .i-instagram{
+            &:hover{
+                color: #8a3ab9;
+            }
+        }
+        .i-github{
+            &:hover{
+                color: #fff;
+            }
+        }
+        .i-facebook{
+            &:hover{
+                color: #3b5998;
+            }
+        }
     }
-    a:not(last-child){
-        margin-right: 1rem;
-    }
-    .i-instagram{
-&:hover{
-    color: #8a3ab9;
-}
-    }
-    .i-github{
-        &:hover{
-    color: #fff;
-}
-    }
-    .i-facebook{
-        &:hover{
-    color: #3b5998;
-}
-    }
-}
 `
 export default HomePage

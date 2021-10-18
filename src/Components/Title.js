@@ -52,7 +52,8 @@ h2{
         left:0;
         font-size: 4.5rem;
         font-weight: 700;
-        color: rgba(25 29 43 /.44);
+        color: var(--border-color);
+        opacity: .3;
         z-index: -1;
         @media screen and (max-width:500px){
             font-size: 3rem;
