@@ -53,16 +53,20 @@ const SidebarStyle = styled.div`
         transform: translateX(-100%);
     }
     .theme-changer-container{
-        width: 100%;
+        margin: 0 auto;
+        width: 80%;
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: var(--primery-color);
+        background-color: var(--background-dark-color);
+        border-radius: 30px;
+
         .right{
 
         }
         .left{
-            color: var(--white-color);
+            color: var(--primery-color);
+            font-weight: 600;
         }
   
     }

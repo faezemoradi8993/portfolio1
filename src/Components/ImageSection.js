@@ -109,6 +109,7 @@ margin-top: 5rem;
                     color: var(--primery-color);
                     padding-bottom: .3rem;
                     letter-spacing: .1rem;
+                    font-weight: 600;
                 }
             }
         }
