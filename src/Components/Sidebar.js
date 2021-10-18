@@ -8,6 +8,7 @@ import Switch from '@material-ui/core/Switch'
 const Sidebar = ({ toggle, setToggle, theme , setTheme }) => {
     const themToggler=()=>{
         theme==='dark'?setTheme('light'):setTheme('dark')
+        setToggle(false)
     }
     return (
         <SidebarStyle className={toggle ? "nav-toggle" : ""}>

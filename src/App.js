@@ -9,7 +9,7 @@ import Blogs from './Pages/Blogs';
 import About from './Pages/About';
 import MenuIcon from '@material-ui/icons/Menu';
 import Backdrop from './Components/BackDrop';
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 
 
 function App() {

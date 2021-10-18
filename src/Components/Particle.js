@@ -1,14 +1,18 @@
 import React from 'react'
 import styled from 'styled-components';
 import Particles from 'react-particles-js';
+import { red } from '@material-ui/core/colors';
 
 
-const Particle = () => {
+const Particle = ({theme}) => {
     return (
         <ParticleStyle>
             <Particles
                 params={{
                     "particles": {
+                        // "color": {
+                        //     "value": theme==='dark'?'white':'black'
+                        //   },
                         "number": {
                             "value": 160,
                             "density": {
@@ -71,5 +75,6 @@ const ParticleStyle = styled.div`
     #tsparticles{
         height: 100%;
     }
+    
 `
 export default Particle

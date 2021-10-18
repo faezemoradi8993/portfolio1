@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
  .light{
   --background-lite-color: #f122f1;
     --background-dark-color: #d6dcf7;
-    --background-dark-color-2: #c5d1d6;
+    --background-dark-color-2: #cdeaf5;
     --background-dark-color-3: #181022;
     --background-dark-color-4: #2f093f;
     --primery-color: #3b217a;
