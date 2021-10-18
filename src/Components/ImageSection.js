@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import resume from '../Images/resume.jpg'
+import resume from '../Images/img (2).jpeg'
 import PrimaryButton from '../Components/PrimaryButton'
 import { InnerLayout } from '../Styles/MainLayout'
 import Title from './Title'

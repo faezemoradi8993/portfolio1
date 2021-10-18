@@ -18,7 +18,7 @@ transform: translateX(-100%);
 width: 100vw;
 height: 100vh;
 opacity: .5;
-background: var(--primery-color);
+background: var(--background-dark-color);
 backdrop-filter: blur( 20px );
 -webkit-backdrop-filter: blur( 4px );
 `

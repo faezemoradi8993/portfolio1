@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Avatar from "../Images/avatar.jpg"
+import Avatar from "../Images/img (2).jpeg"
 import Navigation from './Navigation'
 
 
