@@ -9,17 +9,18 @@ import ResumePage from './Pages/ResumePage';
 import Blogs from './Pages/Blogs';
 import About from './Pages/About';
 import MenuIcon from '@material-ui/icons/Menu';
+import  Backdrop  from './Components/BackDrop';
 
 function App() {
   const [navToggle, setNavToggle] = useState(false)
   return (
     <AppStyled>
-      {/* <Sidebar className={navToggle ? "nav-toggler" : ""} /> */}
+       <Backdrop  toggle={navToggle} setToggle={setNavToggle} />
        <Sidebar toggle={navToggle} setToggle={setNavToggle} /> 
       <div className='menu-mobile' onClick={() => setNavToggle(!navToggle)}>
         <MenuIcon />
       </div>
-      <MainContentStyled>
+      <MainContentStyled >
         <ul className="lines">
           <li className="line"></li>
           <li className="line"></li>
@@ -43,13 +44,14 @@ const AppStyled = styled.div`
 color: var(--font-light-color);
 `
 const MainContentStyled = styled.main`
+overflow: ${navToggle => navToggle ? 'hidden' : 'auto'};
+height: ${navToggle => navToggle ? '100vh' : '100%'};
 width: calc(100vw - 17rem);
 min-height: 100vh;
 margin: 0 0 0 auto;
 position: relative;
 @media screen and (max-width:1200px){
       width: 100vw;
-      /* transition: all .3s ease-in-out; */
 }
 
 .lines{
