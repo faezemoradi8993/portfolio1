@@ -37,6 +37,8 @@ const MenuItemStyle = styled.div`
         grid-template-columns: repeat(1,1fr); 
     }
     .grid-item{
+        background-color: var(--background-dark-color-2);
+        padding: 1rem;
         .portpolio-content{
             display: block;
             position: relative;
@@ -53,6 +55,14 @@ const MenuItemStyle = styled.div`
                     display: none;
                 }
             }
+        }
+        h6{
+            color: var(--white-color);
+            padding: .6rem 0;
+            font-size: 1.3rem;
+        }
+        p{
+            padding: .4rem 0;
         }
     }
 `

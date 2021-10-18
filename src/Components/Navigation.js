@@ -15,12 +15,12 @@ const Navigation = ({ setToggle }) => {
             <li>
                 <NavLink to="/resume" activeClassName="active-class" exact onClick={() => setToggle(false)} >Resume</NavLink>
             </li>
-            <li>
+            {/* <li>
                 <NavLink to="/portfolios" activeClassName="active-class" exact onClick={() => setToggle(false)} >Portfolios</NavLink>
             </li>
             <li>
                 <NavLink to="/blogs" activeClassName="active-class" exact onClick={() => setToggle(false)} >Blogs</NavLink>
-            </li>
+            </li> */}
             <li>
                 <NavLink to="/contact" activeClassName="active-class" exact onClick={() => setToggle(false)} >Contact</NavLink>
             </li>
