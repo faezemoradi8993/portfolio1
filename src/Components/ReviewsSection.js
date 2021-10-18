@@ -4,28 +4,29 @@ import { InnerLayout } from '../Styles/MainLayout'
 import ReviewItem from './ReviewItem'
 import Title from './Title'
 
+
 const ReviewsSection = ({ text }) => {
     return (
         <InnerLayout>
-        <Title title="Reviews" span="Reviews" /> 
-        <ReviewsSectionStyle>
-            <div className='reviews'>
-            <ReviewItem text="Elit officia enim dolor nostrud incididunt excepteur aute. Cupidatat deserunt nostrud nisi nostrud amet sunt velit sint. Adipisicing officia et sint aute exercitation commodo enim ut."/>
-            <ReviewItem text="Elit officia enim dolor nostrud incididunt excepteur aute. Cupidatat deserunt nostrud nisi nostrud amet sunt velit sint. Adipisicing officia et sint aute exercitation commodo enim ut."/>
-            </div>
-        </ReviewsSectionStyle>
+            <Title title="Reviews" span="Reviews" />
+            <ReviewsSectionStyle>
+                <div className='reviews'>
+                    <ReviewItem text="Elit officia enim dolor nostrud incididunt excepteur aute. Cupidatat deserunt nostrud nisi nostrud amet sunt velit sint. Adipisicing officia et sint aute exercitation commodo enim ut." />
+                    <ReviewItem text="Elit officia enim dolor nostrud incididunt excepteur aute. Cupidatat deserunt nostrud nisi nostrud amet sunt velit sint. Adipisicing officia et sint aute exercitation commodo enim ut." />
+                </div>
+            </ReviewsSectionStyle>
         </InnerLayout>
     )
 }
 const ReviewsSectionStyle = styled.div`
-margin-top: 5rem;
-width: 100%;
-.reviews{
-    display: flex;
-    @media screen and (max-width:768px){
-               flex-direction: column;
+    margin-top: 5rem;
+    width: 100%;
+    .reviews{
+        display: flex;
+        @media screen and (max-width:768px){
+            flex-direction: column;
         }
-}
+    }
 
 `
 export default ReviewsSection

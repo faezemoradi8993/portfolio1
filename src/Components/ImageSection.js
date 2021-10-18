@@ -6,10 +6,11 @@ import { InnerLayout } from '../Styles/MainLayout'
 import Title from './Title'
 import cv from '../resume-farsi-faezemoradi.pdf'
 
+
 const ImageSection = () => {
     return (
         <InnerLayout>
-             <Title title="About Me" span="About me" />
+            <Title title="About Me" span="About me" />
             <ImageSectionStyle>
                 <div className="left-content">
                     <img src={resume} />
@@ -37,11 +38,11 @@ const ImageSection = () => {
                             <p>: Iran , Tehran</p>
                             <p>: Frelance</p>
                         </div>
-                        
+
                     </div>
                     <a target="_blank" href={cv} target="_blank" download><PrimaryButton title="download cv" />
                     </a>
-                  
+
 
                 </div>
             </ImageSectionStyle>
@@ -49,35 +50,33 @@ const ImageSection = () => {
     )
 }
 const ImageSectionStyle = styled.div`
-width: 100%;
-display: flex;
-margin-top: 5rem;
-@media screen and (max-width:768px){
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+    @media screen and (max-width:768px){
         flex-direction: column;
     }
-.left-content{
-    width: 50%;
-    @media screen and (max-width:768px){
-        width: 100%;
-    }
-    /* padding-bottom: 2rem; */
-    img{
-        object-fit: cover;
-        object-position: top;
-        width: 90%;
-        height: 100%;
-        margin:0 auto;
+    .left-content{
+        width: 50%;
         @media screen and (max-width:768px){
             width: 100%;
         }
-}
-    
-}
-.right-content{
-    width: 50%;
-    @media screen and (max-width:768px){
-        width: 100%;
+        img{
+            object-fit: cover;
+            object-position: top;
+            width: 90%;
+            height: 100%;
+            margin:0 auto;
+            @media screen and (max-width:768px){
+                width: 100%;
+            }
+        }     
     }
+    .right-content{
+        width: 50%;
+        @media screen and (max-width:768px){
+            width: 100%;
+        }
         h4{
             padding-bottom: 2rem;
             font-size: 2rem;
@@ -88,7 +87,7 @@ margin-top: 5rem;
             }
             @media screen and (max-width:768px){
                 padding-top: 2rem;
-        }
+            }
         }
         .paragraphy{
             padding-bottom: 2rem;
@@ -113,6 +112,6 @@ margin-top: 5rem;
                 }
             }
         }
-}
+    }
 `
 export default ImageSection

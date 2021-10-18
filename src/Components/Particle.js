@@ -1,10 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 import Particles from 'react-particles-js';
-import { red } from '@material-ui/core/colors';
 
 
-const Particle = ({theme}) => {
+const Particle = ({ theme }) => {
     return (
         <ParticleStyle>
             <Particles

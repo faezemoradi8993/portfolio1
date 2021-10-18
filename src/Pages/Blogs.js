@@ -4,26 +4,28 @@ import Title from '../Components/Title';
 import blogs from '../Data/BlogsData';
 import { MainLayout, InnerLayout } from '../Styles/MainLayout';
 
+
 const Blogs = () => {
     return (
         <MainLayout>
             <BlogsStyle>
                 <Title title={'Blogs'} span={'Blogs'} />
                 <InnerLayout className='blog'>
-                {blogs.map(blog => (
-
-                        <div  key={blog.id} className='blog-item'>
-                            <div className='image'>
-                                <img src={blog.image} />
+                    {
+                        blogs.map(blog => (
+                            <div key={blog.id} className='blog-item'>
+                                <div className='image'>
+                                    <img src={blog.image} />
+                                </div>
+                                <div className='title'>
+                                    <a href={blog.link}>{blog.title}</a>
+                                </div>
+                                <div className='date'>
+                                    <span></span><span></span><span></span>
+                                </div>
                             </div>
-                            <div className='title'>
-                                <a href={blog.link}>{blog.title}</a>
-                            </div>
-                            <div className='date'>
-                                <span></span><span></span><span></span>
-                            </div>
-                        </div>
-                ))}
+                        ))
+                    }
                 </InnerLayout>
             </BlogsStyle>
         </MainLayout>

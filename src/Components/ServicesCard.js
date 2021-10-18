@@ -1,18 +1,18 @@
 import React from 'react'
-import styled  from 'styled-components';
+import styled from 'styled-components';
 
 
-const ServicesCard = ({title,img,caption}) => {
-    return ( 
+const ServicesCard = ({ title, img, caption }) => {
+    return (
         <ServicesCardStyle>
-            <img src={img} alt={title}/>
+            <img src={img} alt={title} />
             <h4>{title}</h4>
             <h5></h5>
-            <p>{caption}</p>  
+            <p>{caption}</p>
         </ServicesCardStyle>
     )
 }
-const ServicesCardStyle= styled.div`
+const ServicesCardStyle = styled.div`
     flex:1;
     padding: 1.5rem;
     background-color: var(--background-dark-color-2);
@@ -34,7 +34,6 @@ const ServicesCardStyle= styled.div`
         transition: all .5s ease;
     }
     &:hover{
-        /* margin-top: -.3rem; */
         transform: translateY(-15px);
         transition: all .2s ease;
     }
@@ -42,7 +41,8 @@ const ServicesCardStyle= styled.div`
         padding: .5rem 0 1rem 0;
         color: var(--white-color);
     }
-    h5{width:3rem;
+    h5{
+        width:3rem;
         border-bottom: 2px var(--border-color)solid;
         border-radius: 20px;
         margin-bottom: 1rem;

@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Title = ({title, span}) => {
+
+const Title = ({ title, span }) => {
     return (
         <TitleStyle>
             <h2>{title}<span>{span}</span></h2>

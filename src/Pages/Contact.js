@@ -3,48 +3,49 @@ import styled from 'styled-components';
 import Title from '../Components/Title';
 import { MainLayout } from '../Styles/MainLayout';
 import PrimaryButton from './../Components/PrimaryButton';
-import { Phone, Email} from '@material-ui/icons';
+import { Phone, Email } from '@material-ui/icons';
 import RoomIcon from '@material-ui/icons/Room';
 import ContactItem from '../Components/ContactItem';
 
+
 const Contact = () => {
-    const phone= <Phone/>
-    const email= <Email/>
-    const room= <RoomIcon/>
+    const phone = <Phone />
+    const email = <Email />
+    const room = <RoomIcon />
     return (
         <MainLayout>
             <Title title="Contact Us" span="Contact Us" />
-                <ContactStyle >
-                    <div className='right-container'>
-                        <div className='contact-title'>
-                            <h4>Get in touch</h4>
+            <ContactStyle >
+                <div className='right-container'>
+                    <div className='contact-title'>
+                        <h4>Get in touch</h4>
+                    </div>
+                    <form className='form'>
+                        <div className='form-field'>
+                            <label htmlFor='name' >Enter your Name</label>
+                            <input type='text' id="name" />
                         </div>
-                        <form className='form'>
-                            <div className='form-field'>
-                                <label htmlFor='name' >Enter your Name</label>
-                                <input type='text' id="name" />
-                            </div>
-                            <div className='form-field'>
-                                <label htmlFor='email' >Enter your Email</label>
-                                <input type='text' id="email" />
-                            </div>
-                            <div className='form-field'>
-                                <label htmlFor='Subject' >Enter Subject</label>
-                                <input type='text' id="subject" />
-                            </div>
-                            <div className='form-field'>
-                                <label htmlFor='messagge' >Enter Your Message</label>
-                                <textarea id="message" />
-                            </div>
-                            <PrimaryButton title='Submit'/>
-                        </form>
-                    </div>
-                    <div className='left-container'>
-                        <ContactItem icon={phone} title='Phone' contact1='09153488577' contact2='09021461242'/>
-                        <ContactItem icon={email} title='Email' contact1='faeze.moradi8993@gmail.com' contact2='faeze.moradi8993@gmail.com'/>
-                        <ContactItem icon={room} title='Address' contact1='Iran ,Tehran ' contact2='Iran , Iranshahr'/>
-                    </div>
-                </ContactStyle>
+                        <div className='form-field'>
+                            <label htmlFor='email' >Enter your Email</label>
+                            <input type='text' id="email" />
+                        </div>
+                        <div className='form-field'>
+                            <label htmlFor='Subject' >Enter Subject</label>
+                            <input type='text' id="subject" />
+                        </div>
+                        <div className='form-field'>
+                            <label htmlFor='messagge' >Enter Your Message</label>
+                            <textarea id="message" />
+                        </div>
+                        <PrimaryButton title='Submit' />
+                    </form>
+                </div>
+                <div className='left-container'>
+                    <ContactItem icon={phone} title='Phone' contact1='09153488577' contact2='09021461242' />
+                    <ContactItem icon={email} title='Email' contact1='faeze.moradi8993@gmail.com' contact2='faeze.moradi8993@gmail.com' />
+                    <ContactItem icon={room} title='Address' contact1='Iran ,Tehran ' contact2='Iran , Iranshahr' />
+                </div>
+            </ContactStyle>
         </MainLayout>
     )
 }

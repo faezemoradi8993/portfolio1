@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
+
 const ProgressBar = ({ title, width }) => {
     return (
         <ProgressBarStyle>
@@ -15,39 +16,37 @@ const ProgressBar = ({ title, width }) => {
     )
 }
 const ProgressBarStyle = styled.div`
-display: flex;
-/* align-items: center; */
-flex-direction: column;
-width: 100%;
-h6{
-    color: var(--white-color);
-    padding-bottom: .7rem;
-    
-}
-.progressbar{
     display: flex;
-    align-items: center;
-    span{
-        padding-right: .5rem;
-        font-size: 1rem;
+    flex-direction: column;
+    width: 100%;
+    h6{
+        color: var(--white-color);
+        padding-bottom: .7rem;  
     }
-    .progress{
-        width: 100%;
-        height: .4rem;
-        position: relative;
-        background-color: var(--border-color);
+    .progressbar{
         display: flex;
-        border-radius: 5px;
-        div{
-            position: absolute;
-            left: 0;
-            bottom: 0px;
-            height: 100%;
-            background-color: var(--primery-color);
+        align-items: center;
+        span{
+            padding-right: .5rem;
+            font-size: 1rem;
+        }
+        .progress{
+            width: 100%;
+            height: .4rem;
+            position: relative;
+            background-color: var(--border-color);
+            display: flex;
             border-radius: 5px;
-         }
+            div{
+                position: absolute;
+                left: 0;
+                bottom: 0px;
+                height: 100%;
+                background-color: var(--primery-color);
+                border-radius: 5px;
+            }
+        }
     }
-}
 `
 
 export default ProgressBar

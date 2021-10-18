@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import { InnerLayout, MainLayout } from '../Styles/MainLayout'
-import Title from '../Components/Title.js'
+import { MainLayout } from '../Styles/MainLayout'
 import ImageSection from '../Components/ImageSection'
 import ServicesSection from '../Components/ServicesSection'
 import ReviewsSection from '../Components/ReviewsSection'
+
 
 const About = () => {
     return (
