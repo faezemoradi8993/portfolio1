@@ -61,7 +61,8 @@ const SidebarStyle = styled.div`
         justify-content: center;
         background-color: var(--background-dark-color);
         border-radius: 30px;
-
+        border:2px solid var(--primery-color);
+        margin-bottom: .8rem;
         .right{
 
         }
@@ -69,7 +70,6 @@ const SidebarStyle = styled.div`
             color: var(--primery-color);
             font-weight: 600;
         }
-  
     }
     .avatar{
         width: 80%;

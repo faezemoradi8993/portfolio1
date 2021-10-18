@@ -19,9 +19,7 @@ function App() {
     document.documentElement.className = theme;
   }, [theme])
   return (
-    <AppStyled 
-    // className={theme}
-    >
+    <AppStyled>
       <Backdrop toggle={navToggle} setToggle={setNavToggle} />
       <Sidebar toggle={navToggle} setToggle={setNavToggle} theme={theme} setTheme={setTheme} />
       <div className='menu-mobile' onClick={() => setNavToggle(!navToggle)}>

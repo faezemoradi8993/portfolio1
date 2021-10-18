@@ -30,6 +30,8 @@ const Navigation = ({ setToggle }) => {
 }
 const NavigationStyle = styled.ul`
     width: 100%;
+    margin-top: .8rem;
+    margin-bottom: .8rem;
     li{
         display: block;
         &:not(:last-child){   
