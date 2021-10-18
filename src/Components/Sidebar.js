@@ -30,7 +30,7 @@ const SidebarStyle = styled.div`
     left: 0;
     color: var(--secondary-color);
     z-index:900;
-    transition: all 0.5s ease-in-out ;
+    transition: all 0.5s ease ;
     @media screen and (max-width:1200px){
         transform: translateX(-100%);
     }

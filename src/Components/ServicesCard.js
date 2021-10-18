@@ -17,7 +17,7 @@ padding: 1.5rem;
 background-color: var(--background-dark-color-2);
 position: relative;
 z-index: 3;
-transition: all .2s ease-in-out;
+transition: all .2s ease;
 &::after{
     content: '';
     position: absolute;
@@ -30,12 +30,12 @@ transition: all .2s ease-in-out;
 }
 &:hover::after{
     background-color:var(--primery-color);
-    transition: all .5s ease-in-out;
+    transition: all .5s ease;
 }
 &:hover{
     /* margin-top: -.3rem; */
     transform: translateY(-15px);
-    transition: all .2s ease-in-out;
+    transition: all .2s ease;
 }
 h4{
     padding: .5rem 0 1rem 0;

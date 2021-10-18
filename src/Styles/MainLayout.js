@@ -15,6 +15,6 @@ padding: 0 0 5rem 0;
 width: 100%;
 @media screen and (max-width:800px){
     padding: 0 0 5rem 0;
-    /* transition: all .5s ease-in-out; */
+    /* transition: all .5s ease; */
 }
 `

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Sidebar from './Components/Sidebar';
-import styled from "styled-components"
 import { Route, Switch } from 'react-router';
 import HomePage from './Pages/HomePage';
 import Portfolios from './Pages/Portfolios';
@@ -10,6 +9,7 @@ import Blogs from './Pages/Blogs';
 import About from './Pages/About';
 import MenuIcon from '@material-ui/icons/Menu';
 import  Backdrop  from './Components/BackDrop';
+import styled, { css } from 'styled-components'
 
 function App() {
   const [navToggle, setNavToggle] = useState(false)
@@ -20,7 +20,7 @@ function App() {
       <div className='menu-mobile' onClick={() => setNavToggle(!navToggle)}>
         <MenuIcon />
       </div>
-      <MainContentStyled >
+      <MainContentStyled className={navToggle?"mainContent-toggle-nav":""}>
         <ul className="lines">
           <li className="line"></li>
           <li className="line"></li>
@@ -44,8 +44,6 @@ const AppStyled = styled.div`
 color: var(--font-light-color);
 `
 const MainContentStyled = styled.main`
-overflow: ${navToggle => navToggle ? 'hidden' : 'auto'};
-height: ${navToggle => navToggle ? '100vh' : '100%'};
 width: calc(100vw - 17rem);
 min-height: 100vh;
 margin: 0 0 0 auto;

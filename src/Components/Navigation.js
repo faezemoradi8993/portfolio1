@@ -43,10 +43,10 @@ li{
         user-select: none;
         padding: .3rem 0;
         font-weight: 600;
-        transition: all .5s ease-in-out;
+        transition: all .5s ease;
         letter-spacing: 1px;
         text-transform: uppercase;
-        /* &:after{
+        &:after{
             content: "";
             position: absolute;
             background-color:var(--border-color);
@@ -55,14 +55,14 @@ li{
             height: 100%;
             left: 0;
             top: 0;
-            transition: all .5s ease-in-out;         
-        } */
-        /* &:hover::after{
+            transition: all .5s ease;         
+        }
+        &:hover::after{
             width: 100%;
-            transition: all .5s ease-in-out;
+            transition: all .5s ease;
             opacity: 0.3;
             border: #000;
-        } */
+        }
         &::before{
             content: "";
             position: absolute;
@@ -72,27 +72,27 @@ li{
             height: 100%;
             right: 0;
             top: 0;      
-            transition: all .5s ease-in-out;   
+            transition: all .5s ease;   
         }
         &:hover::before{
             width: 100%;
-            transition: all .5s ease-in-out;
+            transition: all .5s ease;
             opacity: 0.3;
             border: #000;
         }
         &:hover{
-            transition: all .5s ease-in-out;
+            transition: all .5s ease;
             color: var(--font-light-color);
-            font-weight: 500;
+           
         }
     }
 }
 .active-class{
-    transition: all .2s ease-in-out;
+    transition: all .5s ease;
     background-color: var(--background-dark-color);
     color: var(--primery-color);
-    font-weight: 500;
-    /* &:after{
+   
+    &:after{
             content: "";
             position: absolute;
             background-color:var(--primery-color);
@@ -101,8 +101,8 @@ li{
             height: 100%;
             left: 0;
             top: 0;
-            transition: all .5s ease-in-out;         
-    } */
+            transition: all .5s ease;         
+    }
         &::before{
             content: "";
             position: absolute;
@@ -112,7 +112,7 @@ li{
             height: 100%;
             right: 0;
             top: 0;      
-            transition: all .5s ease-in-out;   
+            transition: all .5s ease;   
         }
 }
 

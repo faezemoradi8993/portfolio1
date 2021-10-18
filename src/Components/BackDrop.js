@@ -9,7 +9,7 @@ const BackDrop = ({toggle, setToggle}) => {
     )
 }
 const BackDropStyle=styled.div`
-transition: all 0.3s ease-in-out ;
+transition: all 0.5s ease ;
 z-index: 800;
 position: absolute;
 left:0 ;
@@ -17,9 +17,9 @@ top: 0;
 transform: translateX(-100%);
 width: 100vw;
 height: 100vh;
-background: var(--border-color);
 opacity: .5;
-backdrop-filter: blur( 4px );
+background: var(--primery-color);
+backdrop-filter: blur( 20px );
 -webkit-backdrop-filter: blur( 4px );
 `
 export default BackDrop

@@ -57,10 +57,10 @@ const BlogsStyle = styled.div`
         object-fit: cover;
         width: 100%;
         height: 100%;
-        transition: all .5s ease-in-out;
+        transition: all .5s ease;
         &:hover {
             transform: rotate(2deg) scale(1.07);
-            transition: all .5s ease-in-out;
+            transition: all .5s ease;
         }
     }
 }
@@ -68,7 +68,7 @@ a{
     color:var(--white-color);
     font-size: 1rem;
     &:hover{
-        transition: all .3s ease-in-out;
+        transition: all .3s ease;
         color: var(--primery-color);
     }
 }

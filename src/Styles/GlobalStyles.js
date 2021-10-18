@@ -29,10 +29,16 @@ const GlobalStyle = createGlobalStyle`
  body{
      background-color:var(--background-dark-color);
  }
+//mainContent 
+.mainContent-toggle-nav{
+  overflow: hidden;
+  height: 100vh;
+}
+
  //nav toggle
  .nav-toggle{
     transform: translateX(0)!important;
-    transition: all 0.5s ease-in-out ;
+    transition: all 0.5s ease ;
 }
 //menu-icon
 .menu-mobile{
@@ -47,10 +53,10 @@ const GlobalStyle = createGlobalStyle`
   background-color: var(--background-dark-color);
   border-radius: 4px;
   opacity: .5;
-  transition: all .2s ease-in-out;
+  transition: all .2s ease;
   &:hover{
     opacity: 1;
-    transition: all .3s ease-in-out;
+    transition: all .3s ease;
   }
   svg{
     font-size: 3rem;

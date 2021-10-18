@@ -50,7 +50,7 @@ const Contact = () => {
 }
 const ContactStyle = styled.div`
     width: 100%;
-    padding:3rem 0 0 0;
+    /* padding:3rem 0 0 0; */
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     grid-column-gap: 2rem;
@@ -89,7 +89,7 @@ const ContactStyle = styled.div`
                     height: 8rem;
                 }
                 textarea , input{
-                    transition: all .3s ease-in-out;
+                    transition: all .3s ease;
                     border: .1rem solid var(--border-color);
                     background-color: transparent;
                     font-size: 1rem;

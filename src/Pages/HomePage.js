@@ -62,7 +62,7 @@ padding-bottom: 2rem;
         height: 3rem;
         border: 2px solid var(--font-light-color);
         background-color: rgba(0 0 0 /30%);
-        transition: all .3s ease-in-out;
+        transition: all .3s ease;
         color: var(--primery-color);
 
     }
