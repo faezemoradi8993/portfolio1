@@ -102,13 +102,13 @@ body{
     transition: all .3s ease;
   }
   svg{
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   @media screen and (max-width:1200px){
     display: flex;    
   }
   @media screen and (max-width:600px){    
-    right: .7rem;
+    right: .9rem;
   }
 }
  `
