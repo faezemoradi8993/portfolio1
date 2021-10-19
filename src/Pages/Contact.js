@@ -70,12 +70,9 @@ margin-top: 5.5rem;
             }
         }
         .form{
-            padding: 1rem;
-            background-color: var(--background-dark-color-2);
-
             width: 100%;
             .form-field{
-                background-color: var(--background-dark-color-2);
+                background-color: var(--background-dark-color);
                 box-shadow: 1px 1px 10px black;
                 width: 100%;
                 position: relative;
@@ -86,7 +83,7 @@ margin-top: 5.5rem;
                     top: -13px;
                     left: 20px;
                     padding: 0 10px;
-                    background-color: var(--background-dark-color-2);
+                    background-color: var(--background-dark-color);
                 }
                 input{
                     height: 50px;
