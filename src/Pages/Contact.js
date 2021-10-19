@@ -76,7 +76,7 @@ margin-top: 5.5rem;
                 box-shadow: 1px 1px 10px black;
                 width: 100%;
                 position: relative;
-                margin-bottom: 30px;
+                margin-bottom: 38px;
                 label{
                     font-weight: 600;
                     position: absolute;
