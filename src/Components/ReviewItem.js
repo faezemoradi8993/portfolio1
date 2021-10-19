@@ -27,7 +27,7 @@ box-shadow: 1px 1px 10px black;
             }
         }
     }
-    &::after{
+    /* &::after{
         content: '';
         position: absolute;
         top: 100%;
@@ -35,7 +35,7 @@ box-shadow: 1px 1px 10px black;
         border-width: 1rem;
         border-style: solid;
         border-color: var(--background-dark-color-2) transparent transparent  var(--background-dark-color-2);
-    }
+    } */
   
     &:hover{
         @media screen and (min-width:768px){

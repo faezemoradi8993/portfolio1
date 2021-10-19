@@ -40,7 +40,6 @@ const SidebarStyle = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border-right: .1rem solid var(--border-color); */
     box-shadow: 1px 1px 10px black;
     height: 100vh;
     position: fixed;
@@ -66,9 +65,8 @@ const SidebarStyle = styled.div`
         margin-bottom: .8rem;
         padding-left: .7rem;
         box-shadow: 1px 1px 10px black;
-        .right{
-            
-
+        opacity: .5;
+        .right{    
         }
         .left{
             color: var(--primery-color);

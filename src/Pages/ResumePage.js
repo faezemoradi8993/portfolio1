@@ -12,9 +12,7 @@ const ResumePage = () => {
             <ResumeStyle>
                 <Skills />
                 <Title title="Resume" span="Resume" />
-                <InnerLayout>
                     <ResumeSection />
-                </InnerLayout>
             </ResumeStyle>
         </MainLayout>
     )

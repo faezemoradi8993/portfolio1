@@ -16,8 +16,9 @@ const ProgressBar = ({ title, width }) => {
     )
 }
 const ProgressBarStyle = styled.div`
-box-shadow: 1px 1px 10px black;
-padding :1rem;
+    background-color: var(--background-dark-color-2);
+    box-shadow: 1px 1px 10px black;
+    padding :1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -26,6 +27,7 @@ padding :1rem;
         padding-bottom: .7rem;  
     }
     .progressbar{
+        opacity: .3;
         display: flex;
         align-items: center;
         span{

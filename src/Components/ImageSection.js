@@ -52,7 +52,7 @@ const ImageSection = () => {
 const ImageSectionStyle = styled.div`
     width: 100%;
     display: flex;
-    margin-top: 5rem;
+    margin-top: 5.5rem;
     @media screen and (max-width:768px){
         flex-direction: column;
     }

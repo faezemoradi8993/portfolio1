@@ -11,7 +11,6 @@ const ResumeSection = () => {
     const work = <BusinessCenterIcon />
     const school = <SchoolIcon />
     return (
-        <InnerLayout>
             <ResumeSectionStyle>
                 <SmallTitle icon={work} title={'Working Experince'} />
                 <div className='resume-content'>
@@ -24,11 +23,12 @@ const ResumeSection = () => {
                     <ResumeItem year={'2010 - 2015'} title={'Computer Engineering - Bachlor'} subTitle={'Shahid Bahonar Univercity of Kerman'} text={""} />
                 </div>
             </ResumeSectionStyle>
-        </InnerLayout>
     )
 }
 const ResumeSectionStyle = styled.div`
 .resume-content{
+    margin-top: 5.5rem;
+    background-color: var(--background-dark-color-2);
     box-shadow: 1px 1px 10px black;
     padding: 1rem;
     border-left: .1rem solid var(--border-color);
