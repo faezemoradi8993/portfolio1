@@ -22,6 +22,7 @@ const Skills = () => {
 }
 const SkillesStyle = styled.div`
 .skills{
+    margin-top: 5.5rem;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 3rem;

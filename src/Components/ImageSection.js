@@ -62,6 +62,7 @@ const ImageSectionStyle = styled.div`
             width: 100%;
         }
         img{
+            box-shadow: 1px 1px 10px black;
             object-fit: cover;
             object-position: top;
             width: 90%;

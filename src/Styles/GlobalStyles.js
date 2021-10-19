@@ -68,6 +68,7 @@ body{
   }
   /* Handle */
   &::-webkit-scrollbar-thumb {
+    box-shadow:inset 1px 1px 10px black;
     background: var(--border-color);
     border-radius: 10px;
   }
@@ -83,6 +84,7 @@ body{
 }
 //menu-icon
 .menu-mobile{
+  box-shadow: 1px 1px 10px black;
   display: none;
   position: fixed;
   align-items: center;

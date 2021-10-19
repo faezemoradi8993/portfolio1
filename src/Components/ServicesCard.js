@@ -13,6 +13,7 @@ const ServicesCard = ({ title, img, caption }) => {
     )
 }
 const ServicesCardStyle = styled.div`
+    box-shadow: 1px 1px 10px black;
     flex:1;
     padding: 1.5rem;
     background-color: var(--background-dark-color-2);
@@ -29,12 +30,15 @@ const ServicesCardStyle = styled.div`
         z-index: 5;
         background-color:var(--border-color);
     }
+    
     &:hover::after{
         background-color:var(--primery-color);
         transition: all .5s ease;
     }
     &:hover{
-        transform: translateY(-15px);
+        @media screen and (min-width:768px){
+            transform: translateY(-15px);
+        }
         transition: all .2s ease;
     }
     h4{

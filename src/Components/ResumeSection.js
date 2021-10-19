@@ -29,6 +29,8 @@ const ResumeSection = () => {
 }
 const ResumeSectionStyle = styled.div`
 .resume-content{
+    box-shadow: 1px 1px 10px black;
+    padding: 1rem;
     border-left: .1rem solid var(--border-color);
     padding-left: 1.4rem;
     @media screen and (max-width:400px){

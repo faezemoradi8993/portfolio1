@@ -50,7 +50,7 @@ color: var(--font-light-color);
 `
 const MainContentStyled = styled.main`
 
-  width: calc(100vw - 17rem);
+  width: calc(100vw - 16.3rem);
   min-height: 100vh;
   margin: 0 0 0 auto;
   position: relative;

@@ -19,6 +19,7 @@ const ContactItem = ({ icon, title, contact1, contact2 }) => {
     )
 }
 const ContactItemStyle = styled.div`
+    box-shadow: 1px 1px 10px black;
     margin-bottom: 2rem;
     padding :2rem;
     display: flex;

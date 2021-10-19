@@ -10,6 +10,7 @@ const ReviewItem = ({ text }) => {
     )
 }
 const ReviewItemStyle = styled.div`
+box-shadow: 1px 1px 10px black;
     flex:1;
     width: 100%;
     padding:2rem 1rem;
@@ -35,10 +36,14 @@ const ReviewItemStyle = styled.div`
         border-style: solid;
         border-color: var(--background-dark-color-2) transparent transparent  var(--background-dark-color-2);
     }
+  
     &:hover{
-        transform: translateY(-15px);
+        @media screen and (min-width:768px){
+            transform: translateY(-15px);
+        }
         border-left: .3rem var(--primery-color) solid; 
         transition: all .2s ease;
     }
+
 `
 export default ReviewItem

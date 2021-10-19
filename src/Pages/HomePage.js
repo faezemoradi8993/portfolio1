@@ -7,8 +7,7 @@ import { MainLayout } from './../Styles/MainLayout';
 
 const HomePage = () => {
     return (
-        <MainLayout>
-            <HomePageStyle>
+        <HomePageStyle>
                 <Particle />
                 <div className="typography">
                     <h1>Hi i'm <span>faeze moradi</span></h1>
@@ -20,10 +19,12 @@ const HomePage = () => {
                     </div>
                 </div>
             </HomePageStyle>
-        </MainLayout>
     )
 }
 const HomePageStyle = styled.header`
+    margin: auto;
+    padding: 3rem 1rem;
+    height: 100vh;
     width:100%;
     position: relative;
     display: flex;
@@ -51,7 +52,9 @@ const HomePageStyle = styled.header`
         display: flex;
         align-items: center;
         justify-content: center;
+
         a{
+            box-shadow: 1px 1px 10px black;
             display: flex;
             align-items: center;
             justify-content: center;

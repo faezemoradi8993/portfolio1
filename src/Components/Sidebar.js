@@ -40,7 +40,8 @@ const SidebarStyle = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-right: .1rem solid var(--border-color);
+    /* border-right: .1rem solid var(--border-color); */
+    box-shadow: 1px 1px 10px black;
     height: 100vh;
     position: fixed;
     width: 16.3rem;
@@ -58,12 +59,15 @@ const SidebarStyle = styled.div`
         width: 80%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         background-color: var(--background-dark-color);
         border-radius: 30px;
         border:2px solid var(--primery-color);
         margin-bottom: .8rem;
+        padding-left: .7rem;
+        box-shadow: 1px 1px 10px black;
         .right{
+            
 
         }
         .left{
