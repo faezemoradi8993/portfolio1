@@ -52,7 +52,6 @@ const HomePageStyle = styled.header`
         display: flex;
         align-items: center;
         justify-content: center;
-
         a{
             box-shadow: 1px 1px 10px black;
             display: flex;

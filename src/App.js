@@ -15,9 +15,11 @@ import styled from 'styled-components'
 function App() {
   const [navToggle, setNavToggle] = useState(false)
   const [theme, setTheme] = useState('dark')
+  
   useEffect(() => {
     document.documentElement.className = theme;
   }, [theme])
+
   return (
     <AppStyled>
       <Backdrop toggle={navToggle} setToggle={setNavToggle} />

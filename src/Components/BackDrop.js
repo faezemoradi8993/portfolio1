@@ -18,7 +18,7 @@ const BackDropStyle = styled.div`
     width: 100vw;
     height: 100vh;
     opacity: .3;
-    background: var(--primery-color);
+    background: var(--border-color);
     backdrop-filter: blur( 20px );
     -webkit-backdrop-filter: blur( 4px );
 `

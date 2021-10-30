@@ -4,7 +4,7 @@ import resume from '../Images/img (2).jpeg'
 import PrimaryButton from '../Components/PrimaryButton'
 import { InnerLayout } from '../Styles/MainLayout'
 import Title from './Title'
-import cv from '../resume-farsi-faezemoradi.pdf'
+import cv from '../resume-eng-faezemoradi.png'
 
 
 const ImageSection = () => {
@@ -17,9 +17,16 @@ const ImageSection = () => {
                 </div>
                 <div className="right-content">
 
-                    <h4>i am <span>faeze moradi</span></h4>
+                    <h4>I am <span>Faeze Moradi</span></h4>
                     <p className="paragraphy">
-                        Enim id culpa pariatur nisi incididunt aliqua et incididunt consequat. Laboris ad enim velit consectetur eiusmod amet in et labore ex duis est. Ipsum excepteur eiusmod excepteur magna tempor consequat cupidatat sit qui qui excepteur id duis officia sint culpa aliquip dolore qui.
+                        I am a Frontend Developer
+                        with 9 month history of
+                        working in the Computer
+                        Software industry. I'm
+                        looking to gain more
+                        experience to improve my
+                        abilities. hope we have
+                        good cooperation together
                     </p>
                     <div className="about-info">
                         <div className="info-title">

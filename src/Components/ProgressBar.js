@@ -27,7 +27,7 @@ const ProgressBarStyle = styled.div`
         padding-bottom: .7rem;  
     }
     .progressbar{
-        opacity: .3;
+        opacity: .6;
         display: flex;
         align-items: center;
         span{

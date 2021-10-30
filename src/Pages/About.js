@@ -18,7 +18,5 @@ const About = () => {
     )
 }
 const AboutStyle = styled.section`
-
-
 `
 export default About
