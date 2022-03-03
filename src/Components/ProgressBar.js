@@ -9,7 +9,7 @@ const ProgressBar = ({ title, width }) => {
             <div className='progressbar'>
                 <span>{width}</span>
                 <div className='progress'>
-                    <div style={{ width: width }}></div>
+                    <div style={{ width }}></div>
                 </div>
             </div>
         </ProgressBarStyle>
@@ -22,6 +22,7 @@ const ProgressBarStyle = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
+    border-radius: 20px;
     h6{
         color: var(--white-color);
         padding-bottom: .7rem;  

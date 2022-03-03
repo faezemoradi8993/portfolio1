@@ -1,13 +1,16 @@
 import React from 'react'
-import Title from '../Components/Title'
-import { MainLayout, InnerLayout } from '../Styles/MainLayout'
+import Title from 'Components/Title'
+import { MainLayout } from 'Styles/MainLayout'
 import styled from 'styled-components';
-import Skills from '../Components/Skills'
-import ResumeSection from '../Components/ResumeSection';
+import Skills from 'Components/Skills'
+import ResumeSection from 'Components/ResumeSection';
+import { Helmet } from 'react-helmet';
 
 
 const ResumePage = () => {
     return (
+        <>
+        <Helmet><title>My Resume</title></Helmet>
         <MainLayout>
             <ResumeStyle>
                 <Skills />
@@ -15,6 +18,7 @@ const ResumePage = () => {
                     <ResumeSection />
             </ResumeStyle>
         </MainLayout>
+        </>
     )
 }
 const ResumeStyle = styled.div`

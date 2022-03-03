@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { InnerLayout } from '../Styles/MainLayout'
 import ReviewItem from './ReviewItem'
 import Title from './Title'
 

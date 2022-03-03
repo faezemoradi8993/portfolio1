@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-import resume from '../Images/img (2).jpeg'
-import PrimaryButton from '../Components/PrimaryButton'
-import { InnerLayout } from '../Styles/MainLayout'
+import resume from 'Images/img (2).jpeg'
+import PrimaryButton from 'Components/PrimaryButton'
+import { InnerLayout } from 'Styles/MainLayout'
 import Title from './Title'
-import cv from '../resume-eng-faezemoradi.png'
+import cv from 'resume-eng-faezemoradi.png'
 
 
 const ImageSection = () => {
@@ -64,6 +64,8 @@ const ImageSectionStyle = styled.div`
         flex-direction: column;
     }
     .left-content{
+        border-radius: 20px;
+        overflow:hidden;
         width: 50%;
         @media screen and (max-width:768px){
             width: 100%;

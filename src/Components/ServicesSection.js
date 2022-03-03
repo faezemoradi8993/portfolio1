@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import ServicesCard from './ServicesCard'
-import Image1 from '../Images/design.svg'
-import Image2 from '../Images/intelligence.svg'
-import Image3 from '../Images/game-dev.svg'
+import Image1 from 'Images/design.svg'
+import Image2 from 'Images/intelligence.svg'
+import Image3 from 'Images/game-dev.svg'
 import Title from './Title'
-import { InnerLayout } from '../Styles/MainLayout'
+import { InnerLayout } from 'Styles/MainLayout'
 
 
 const ServicesSection = () => {

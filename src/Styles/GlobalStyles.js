@@ -31,15 +31,15 @@ const GlobalStyle = createGlobalStyle`
   --font-dark-color-2:#151515;
 }
 .light{
-  --background-lite-color: #00A19D;
-  --background-dark-color: #FBF3E4;
-  --background-dark-color-2: #93B5C6;
+  --background-lite-color: #fff;
+  --background-dark-color: #ffe5f3;
+  --background-dark-color-2: #fff;
   --background-dark-color-3: #B5DEFF;
   --background-dark-color-4: #FBF3E4;
   --primery-color: #A2416B;
   --secondary-color: #EB92BE;
   --thirdary-color: #8a6b8b;
-  --border-color: #2C2891;
+  --border-color: #6a2891;
   --white-color: #000;
   --font-light-color: #030409;
   --font-dark-color: #2b073b;
@@ -60,7 +60,7 @@ body{
   //custom scrollbar
   /* width */
   &::-webkit-scrollbar {
-    width: 5px;
+    width: 4px;
   }
   /* Track */
   &::-webkit-scrollbar-track {

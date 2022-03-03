@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import Avatar from "../Images/img (2).jpeg"
+import Avatar from "Images/img (2).jpeg"
 import Navigation from './Navigation'
 import Switch from '@material-ui/core/Switch'
 
@@ -23,15 +23,13 @@ const Sidebar = ({ toggle, setToggle, theme, setTheme }) => {
                 <div className='right'>
                     <Switch
                         value=""
-                        // checked={}
-                        // onChange={}
                         inputProps={{ "aria-label": '' }}
                         onClick={themToggler}
                     />
                 </div>
             </div>
             <footer>
-                <p>@2021 my portfolio website</p>
+                <p>@2022 my portfolio website</p>
             </footer>
         </SidebarStyle>
     )

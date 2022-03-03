@@ -1,9 +1,9 @@
 import React from 'react'
-import SkillData from '../Data/SkilsData'
+import SkillData from 'Data/SkillsData'
 import styled from 'styled-components';
-import ProgressBar from '../Components/ProgressBar'
+import ProgressBar from 'Components/ProgressBar'
 import Title from './Title';
-import { InnerLayout } from '../Styles/MainLayout';
+import { InnerLayout } from 'Styles/MainLayout';
 
 
 const Skills = () => {
@@ -24,11 +24,16 @@ const SkillesStyle = styled.div`
 .skills{
     margin-top: 5.5rem;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
     @media screen and (max-width:768px){
+        grid-template-columns: repeat(2,1fr);
         grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+    }
+    @media screen and (max-width:600px){
+        grid-column-gap: 1.5rem;
         grid-row-gap: 2rem;
     }
     @media screen and (max-width:500px){

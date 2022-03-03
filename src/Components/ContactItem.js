@@ -1,62 +1,58 @@
-import React from 'react'
-import styled from 'styled-components';
-
+import React from "react";
+import styled from "styled-components";
 
 const ContactItem = ({ icon, title, contact1, contact2 }) => {
-    return (
-        <ContactItemStyle>
-            <div className='left-content'>
-                <p>
-                    {icon}
-                </p>
-            </div>
-            <div className='right-content'>
-                <h6>{title}</h6>
-                <p>{contact1}</p>
-                <p>{contact2}</p>
-            </div>
-        </ContactItemStyle>
-    )
-}
+  return (
+    <ContactItemStyle>
+      <div className="top-content">
+        <p>{icon}</p>
+        <h6>{title}</h6>
+      </div>
+      <div className="bottom-content">
+        <p>{contact1}</p>
+        <p>{contact2}</p>
+      </div>
+    </ContactItemStyle>
+  );
+};
 const ContactItemStyle = styled.div`
-    box-shadow: 1px 1px 10px black;
-    margin-bottom: 2rem;
-    padding :2rem;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px black;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background-dark-color-2);
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+    text-align: center;
+  }
+  .bottom-content {
+    p {
+      font-size: .8rem;
+      padding-top: 0.5rem;
+    }
+  }
+  .top-content {
     display: flex;
     align-items: center;
-    background-color: var(--background-dark-color-2);
-    @media screen and (max-width:1000px){
-        margin-bottom: 0;
-        margin-top: 2rem;   
+    justify-content: center;
+    flex-direction:column;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    @media screen and (max-width: 400px) {
+      margin-right: 0;
+      margin-bottom: 2rem;
     }
-    @media screen and (max-width:400px){
-        flex-direction: column;
-        text-align: center;
+    h6 {
+      color: var(--white-color);
     }
-    .right-content{
-        h6{
-            color:var(--white-color);
-            padding-bottom: 1rem ;
-        }
-        p{
-            font-size: 1rem;
-            padding-top: .5rem;
-        }
+    svg {
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    .left-content{
-        padding: 1.3rem;
-        border: 1px solid var(--border-color);
-        margin-right: 2rem;
-        @media screen and (max-width:400px){
-            margin-right: 0;
-            margin-bottom: 2rem;
-        }
-        svg{
-            font-size: 3rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
-`
-export default ContactItem
+  }
+`;
+export default ContactItem;
