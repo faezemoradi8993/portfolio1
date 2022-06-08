@@ -43,5 +43,13 @@ const SkillData = [
         title: "StyledComponents",
         width: "50%"
     },
+    {
+        title: "ReactQuery",
+        width: "50%"
+    },
+    {
+        title: "ReactHookForm",
+        width: "50%"
+    },
 ]
 export default SkillData

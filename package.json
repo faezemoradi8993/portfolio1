@@ -15,12 +15,13 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "react-particles-js": "^3.5.3",
     "react-router-dom": "^5.3.0",
     "react-scripts": "^3.4.4",
+    "react-spring": "^9.4.5",
+    "react-tsparticles": "^2.0.6",
     "start": "^5.1.0",
     "styled-components": "^5.3.1",
-    "tsparticles": "^1.35.4",
+    "tsparticles": "^1.43.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {

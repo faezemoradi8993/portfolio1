@@ -7,6 +7,7 @@ import Contact from "Pages/Contact";
 import ResumePage from "Pages/ResumePage";
 import Blogs from "Pages/Blogs";
 import About from "Pages/About";
+import Splash from "Pages/Splash";
 import MenuIcon from "@material-ui/icons/Menu";
 import Backdrop from "Components/BackDrop";
 import styled from "styled-components";
@@ -56,6 +57,9 @@ function App() {
           </Route>
           <Route path="/blogs" exact>
             {Blogs}
+          </Route>
+          <Route path="/splash" exact>
+            {Splash}
           </Route>
         </Switching>
       </MainContentStyled>

@@ -24,6 +24,9 @@ const Navigation = ({ setToggle }) => {
             <li>
                 <NavLink to="/contact" activeClassName="active-class" exact onClick={() => setToggle(false)} >Contact</NavLink>
             </li>
+            {/* <li>
+                <NavLink to="/splash" activeClassName="active-class" exact onClick={() => setToggle(false)} >Splash</NavLink>
+            </li> */}
 
         </NavigationStyle>
     )

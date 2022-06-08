@@ -1,24 +1,82 @@
-import React from "react";
+import React, { useCallback } from "react";
 import styled from "styled-components";
-import Particle from "Components/Particle";
+// import Particles from "react-tsparticles";
 import { Facebook, GitHub, Instagram } from "@material-ui/icons";
 import { Helmet } from "react-helmet";
-
 const HomePage = () => {
+  // const particlesInit = (main) => {
+  //   console.log("====================================");
+  //   console.log(main);
+  //   console.log("====================================");
+  // };
+  // const particlesLoaded = (container) => {
+  //   console.log("====================================");
+  //   console.log(container);
+  //   console.log("====================================");
+  // };
+
   return (
     <>
       <Helmet>
-        <title>HomePage</title>
+        <title>Faeze Moradi</title>
       </Helmet>
       <HomePageStyle>
-        <Particle />
+        {/* <Particles
+          id="tsparticles"
+          init={particlesInit}
+          loaded={particlesLoaded}
+          options={{
+            background: { color: "#0e387a" },
+            fpsLimit: 60,
+            particles: {
+              number: {
+                value: 400,
+                limit: 0,
+                density: {
+                  enable: true,
+                  area: 1080,
+                },
+              },
+              color: {
+                value: "#9fafca",
+              },
+              shape: {
+                type: "circle",
+                size: {
+                  value: 1,
+                  random: {
+                    enable: true,
+                    minimumValue: 0.5,
+                  },
+                },
+              },
+              opacity: {
+                value: 0.5,
+                random: {
+                  enable: true,
+                  minimumValue: 0.05,
+                },
+                anim: {
+                  enable: true,
+                  speed: 1,
+                  minimumValue: 0.05,
+                  sync: false,
+                },
+              },
+            },
+            interactivity: {
+              detectsOn: "canvas",
+              events: {
+                resize: true,
+              },
+            },
+          }}
+        /> */}
         <div className="typography">
           <h1>
             Hi i'm <span>Faeze Moradi</span>
           </h1>
-          <p>
-            Welcome to my website{" "}
-          </p>
+          <p>Welcome to my website </p>
           <div className="icons">
             <a
               href="https://facebook.com/faezemoradi8993"

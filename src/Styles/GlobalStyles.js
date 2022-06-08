@@ -77,6 +77,15 @@ body{
     background: #555;
   }
 }
+// #tsparticles {
+//   width: 100%;
+//   height: 100%;
+//   margin: 0;
+//   padding: 0;
+//   top: 0;
+//   left: 0;
+// }
+
  //nav toggle
 .nav-toggle{
   transform: translateX(0)!important;
