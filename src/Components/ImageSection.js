@@ -4,7 +4,7 @@ import resume from 'Images/img (2).jpeg'
 import PrimaryButton from 'Components/PrimaryButton'
 import { InnerLayout } from 'Styles/MainLayout'
 import Title from './Title'
-import cv from 'resume-eng-faezemoradi.png'
+import cv from 'resume-fa-faezemoradi.pdf'
 
 
 const ImageSection = () => {
@@ -46,7 +46,7 @@ const ImageSection = () => {
                         </div>
 
                     </div>
-                    <a target="_blank" href={cv} target="_blank" download><PrimaryButton title="download cv" />
+                    <a target="_blank" href={cv} target="_blank" download><PrimaryButton title="download persian cv" />
                     </a>
 
 
