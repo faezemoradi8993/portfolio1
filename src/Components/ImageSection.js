@@ -20,9 +20,8 @@ const ImageSection = () => {
                     <h4>I am <span>Faeze Moradi</span></h4>
                     <p className="paragraphy">
                         I am a Frontend Developer
-                        with 9 month history of
-                        working in the Computer
-                        Software industry. I'm
+                        with about 2 years history of
+                        working in the FrontEnd Developing. I'm
                         looking to gain more
                         experience to improve my
                         abilities. hope we have
@@ -39,7 +38,7 @@ const ImageSection = () => {
                         </div>
                         <div className="info-value">
                             <p>: Faeze Moradi</p>
-                            <p>: 29</p>
+                            <p>: 30</p>
                             <p>: Iran</p>
                             <p>: Persian</p>
                             <p>: Iran , Tehran</p>
