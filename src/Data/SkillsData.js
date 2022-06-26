@@ -48,6 +48,10 @@ const SkillData = [
         width: "50%"
     },
     {
+        title: "Redux Toolkit",
+        width: "50%"
+    },
+    {
         title: "ReactHookForm",
         width: "50%"
     },
