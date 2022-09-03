@@ -5,13 +5,10 @@ import img3 from '../Images/portImages/maya-4.jpg'
 
 const portfolios = [
     {
-        id: '1', category: 'backend', link1: 'https://www.google.com', link2: 'https://www.google.com', title: 'How to use pyton', text: 'Number one programing language', image: `${img1}`
+        id: '1', category: 'FrontEnd', link1: 'https://seller.technosu.ir/login', link2: 'https://seller.technosu.ir/login', title: 'Sellers pannel', text: 'TechnoSun Company', image: `${img1}`
     },
     {
-        id: '2', category: 'Animation', link1: 'https://www.google.com', link2: 'https://www.google.com', title: 'How to use Animation', text: 'My favorite ', image: `${img2}`
-    },
-    {
-        id: '3', category: 'frontend', link1: 'https://www.google.com', link2: 'https://www.google.com', title: 'How to use Javascrypt', text: 'Number one programing language on frontend', image: `${img3}`
+        id: '2', category: 'FrontEnd', link1: 'https://faris.trade/', link2: 'https://faris.trade/', title: 'Faris platform', text: 'Ratech Company ', image: `${img2}`
     },
 ]
 export default portfolios
