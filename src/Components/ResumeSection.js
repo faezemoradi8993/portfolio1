@@ -12,12 +12,28 @@ const ResumeSection = () => {
     <ResumeSectionStyle>
       <SmallTitle icon={work} title={"Working Experince"} />
       <div className="resume-content">
+                                             <ResumeItem
+          year={"2024 - Now"}
+          title={"FrontEnd Developer"}
+          subTitle={"Sadad Informatic Corporation"}
+          text={
+            "I am currently working on the admin project of National Bank of Iran website, a web application built with React, Antd, etc."
+          }
+        />
+                                                                                <ResumeItem
+          year={"2023 - 2024"}
+          title={"FrontEnd Developer"}
+          subTitle={"TelC"}
+          text={
+            "We developed a professional panel for mci (hamrahe avval)"
+          }
+        />
         <ResumeItem
           year={"2022 - Now"}
           title={"React Developer"}
           subTitle={"TechnoSun"}
           text={
-            "I am developing seller pannel with React , Typescript and Tailwind , .."
+            "we developed seller pannel with React , Typescript and Tailwind , .."
           }
         />
         <ResumeItem
@@ -25,7 +41,7 @@ const ResumeSection = () => {
           title={"React Developer"}
           subTitle={"Ratech company"}
           text={
-            "I develop some pages for optim-block project , i worked there for two month ."
+            "I develop some pages for optim-block project , I worked there for two month ."
           }
         />
         <ResumeItem
@@ -33,7 +49,7 @@ const ResumeSection = () => {
           title={"Intern front-end developer"}
           subTitle={"Nokarto"}
           text={
-            "It was my first experience on web developing , i was there 1 month ."
+            "It was my first experience on web developing , I was there 1 month ."
           }
         />
         <ResumeItem
