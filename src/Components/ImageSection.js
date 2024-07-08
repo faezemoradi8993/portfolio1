@@ -20,7 +20,7 @@ const ImageSection = () => {
                     <h4>I am <span>Faeze Moradi</span></h4>
                     <p className="paragraphy">
                         I am a Frontend Developer
-                        with about 2 years history of
+                        with about 3 years history of
                         working in the FrontEnd Developing. I'm
                         looking to gain more
                         experience to improve my
@@ -38,7 +38,7 @@ const ImageSection = () => {
                         </div>
                         <div className="info-value">
                             <p>: Faeze Moradi</p>
-                            <p>: 30</p>
+                            <p>: 32</p>
                             <p>: Iran</p>
                             <p>: Persian</p>
                             <p>: Iran , Tehran</p>
