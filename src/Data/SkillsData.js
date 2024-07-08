@@ -1,59 +1,59 @@
 const SkillData = [
     {
         title: "HTML",
-        width: "80%"
+        width: "100%"
     },
     {
         title: "CSS",
-        width: "85%"
+        width: "90%"
     },
     {
         title: "SCSS",
-        width: "85%"
+        width: "90%"
     },
     {
         title: "JavaScript",
-        width: "70%"
-    },
-    {
-        title: "React JS",
-        width: "50%"
-    },
-    {
-        title: "Next JS",
-        width: "50%"
-    },
-    {
-        title: "Typescript",
-        width: "50%"
-    },
-    {
-        title: "BootStrap",
-        width: "60%"
-    },
-    {
-        title: "Tailwind",
         width: "80%"
     },
     {
+        title: "React JS",
+        width: "90%"
+    },
+    {
+        title: "Next JS",
+        width: "80%"
+    },
+    {
+        title: "Typescript",
+        width: "70%"
+    },
+    {
+        title: "BootStrap",
+        width: "70%"
+    },
+    {
+        title: "Tailwind",
+        width: "100%"
+    },
+    {
         title: "Material UI",
-        width: "40%"
+        width: "80%"
     },
     {
         title: "StyledComponents",
-        width: "50%"
+        width: "90%"
     },
     {
         title: "ReactQuery",
-        width: "50%"
+        width: "90%"
     },
     {
         title: "Redux Toolkit",
-        width: "50%"
+        width: "90%"
     },
     {
         title: "ReactHookForm",
-        width: "50%"
+        width: "90%"
     },
 ]
 export default SkillData
