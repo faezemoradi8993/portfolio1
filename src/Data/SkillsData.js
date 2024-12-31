@@ -13,7 +13,7 @@ const SkillData = [
     },
     {
         title: "JavaScript",
-        width: "80%"
+        width: "90%"
     },
     {
         title: "React JS",
@@ -37,6 +37,10 @@ const SkillData = [
     },
     {
         title: "Material UI",
+        width: "80%"
+    },
+        {
+        title: "Ant Design",
         width: "80%"
     },
     {
