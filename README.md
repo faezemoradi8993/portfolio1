@@ -1,8 +1,7 @@
 # Developing . . .
 # Vercel Demo : [https://faezemoradi.vercel.app/](https://faezemoradi.vercel.app/)
 ![portfolio](https://s4.uupload.ir/files/capture_4281.png)
-# Netlify Demo :[https://faezemoradi.vercel.app/](https://faezemoradi.netlify.app/contact)
-![portfolio](https://s4.uupload.ir/files/capture_4281.png)
+# Netlify Demo :[https://faezemoradi.vercel.app/](https://faezemoradi.netlify.app/)
 
 # Getting Started with Create React App
 
